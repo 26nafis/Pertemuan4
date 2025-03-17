@@ -41,8 +41,13 @@ while (n < 7)
 
     cout << "perulangan do while" << endl;
 }
-
-
-
+do
+{
+    cout << "nilai n = " << n << endl;
+    n = rand() % 10;
+    perulanganDo++;
+}while (n < 7);
+cout <<"jumlah perulangan = " << perulanganWhile << endl;
+cout << "nilai n terkhir"
 
 }
