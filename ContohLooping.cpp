@@ -16,7 +16,7 @@ int main()
         cout << "nilai n = " << n << "selamat datang" << endl
     }
     cout <<"Nilai n terakhir = " << n << endl;
-    cout endl;
+    cout << endl;
 // perulangan dengan for 
     cout << "perulangan for pencacah turun" << endl;
     for (n = 5; n < 0; n--)
@@ -27,5 +27,22 @@ int main()
     cout << endl;
 
     cout << "perulangan for pencacah turun" << endl;
-    
+
+    srand(time(0));
+
+    n = rand() % 10;
+
+cout << "nilai awal n = " << n << endl;
+
+while (n < 7)
+{
+    cout << "jumlah perulangan = " << perulanganWhile << endl;
+    cout << "nilai n terkahir = " << n << endl;
+
+    cout << "perulangan do while" << endl;
+}
+
+
+
+
 }
