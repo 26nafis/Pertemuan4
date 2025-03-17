@@ -22,10 +22,17 @@ int main(){
         cin >> lebar;
         cout <<  "luas persegi panjang = " << luaspersegipanjang(panjang, lebar)
         break;
+        case 2:
+        cout <<  "hitung luas lingkaran << endl;
+        cout <<  "masukan jari-jari = ";
+        cin >> jejari;
+        cout <<  "masukan lebar = ";
+        cin >> lebar;
+        cout <<  "luas lingkaran = " << luaslingkaran(jejari) << endl;
+        break;
     
 
-    default:
-        break;
+    
     }
     
     
