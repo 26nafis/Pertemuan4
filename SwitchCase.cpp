@@ -12,6 +12,21 @@ int main(){
 
        cout << "pilihan (1/2/3) = ";
        cin >> pilihan;
+    switch (pilihan)
+    {
+    case 1:
+        cout <<  "hitung luas persegi panjang" << endl;
+        cout <<  "masukan panjang = " ;
+        cin >> panjang;
+        cout <<  "masukan lebar = ";
+        cin >> lebar;
+        cout <<  "luas persegi panjang = " << luaspersegipanjang(panjang, lebar)
+        break;
+    
+
+    default:
+        break;
+    }
     
     
 
