@@ -32,9 +32,9 @@ int main()
 
     n = rand() % 10;
 
-cout << "nilai awal n = " << n << endl;
+ cout << "nilai awal n = " << n << endl;
 
-while (n < 7)
+ while (n < 7)
 {
     cout << "jumlah perulangan = " << perulanganWhile << endl;
     cout << "nilai n terkahir = " << n << endl;
