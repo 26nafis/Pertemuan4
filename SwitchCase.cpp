@@ -29,11 +29,16 @@ int main(){
         cout <<  "masukan lebar = ";
         cin >> lebar;
         cout <<  "luas lingkaran = " << luaslingkaran(jejari) << endl;
+          break;
+        case 3:
         break;
+        default:
+           cout << "pilihan salah, pilihan harus di antara 1-3.";
+           break;
     
 
     
-    }
+    }while(pilihan != 3);
     
     
 
